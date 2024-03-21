@@ -1,6 +1,3 @@
-[submodule "rp-sdk-hello-world"]
-	path = rp-sdk-hello-world
-	url = https://github.com/huiminlim/rp-sdk-hello-world
 [submodule "deps/pico-sdk"]
 	path = deps/pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk

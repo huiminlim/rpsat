@@ -23,5 +23,5 @@ if (TARGET tinyusb_device)
     # create map/bin/hex/uf2 file etc.
     pico_add_extra_outputs(obc)
 elseif(PICO_ON_DEVICE)
-    message(WARNING "not building hello_usb because TinyUSB submodule is not initialized in the SDK")
+    message(WARNING "not building obc because TinyUSB submodule is not initialized in the SDK")
 endif()
